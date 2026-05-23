@@ -1,6 +1,9 @@
 # EDUCATA RETURNS
-insert text here!
+Observing Gaia's End (and Maybe Also Its New Beginnings?)
 
+EARTH-227-3-RE
+
+A classless, levelless DND5e PHB24 campaign.
 
 
 # Other
