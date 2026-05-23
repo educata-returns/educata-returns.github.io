@@ -60,12 +60,6 @@
 
 <body>
 
-<div>
-	<audio autoplay loop>
-  <source src="audio/bgm/Philosophyz_tv.mp3" type="audio/mpeg">
-</audio>
-</div>
-
 <div class="overlay-noise no-print"></div>
 
 <header class="ve-mobile-sm__hidden page__header">
@@ -221,17 +215,31 @@ Unearthed Arcana content can be accessed by cycling the &quot;All Sources&quot; 
 	<div class="cancer__wrp-leaderboard cancer__anchor"><div class="cancer__disp-cancer"></div><div class="cancer__wrp-leaderboard-inner cancer__wrp-interactive"><!--5ETOOLS_AD_LEADERBOARD--></div></div>
 	<div class="ve-w-100">
 		<h3>Basic Gameplay Changes</h3>
-		<p><b>Classless & Levelless.</b>This game has no classes and therefore no class levels. </p>
-		<p><b>CON Modifier changes.</b>You have additional Max HP equal to your CON modifier.
+		<p><b>Classless & Levelless.</b> This game has no classes and therefore no class levels. </p>
+		<p><b>CON Modifier changes.</b> You have additional Max HP equal to your CON modifier.
 		<br>Additionally, your maximum Exhaustion is equal to your CON modifier.</p>
-		<p><b>Nonlethal Exhaustion.</b>Instead of dying at Max Exhaustion, you pass out Unconscious for a number of hours equal to your Exhaustion and cannot be forced awake while in this state.
+		<p><b>Nonlethal Exhaustion.</b> Instead of dying at Max Exhaustion, you pass out Unconscious for a number of hours equal to your Exhaustion and cannot be forced awake while in this state.
 		<br>Afterwards, you gain the benefits of a Long Rest.</p>
-		<p><b>Cantrip Leveling.</b>You can raise a cantrip's level by studying it on your own, learning some method from a Trainer, or upgrading it in some way.</p>
+		<p><b>Cantrip Leveling.</b> You can raise a cantrip's level by studying it on your own, learning some method from a Trainer, or upgrading it in some way.</p>
 	</div>
+
 	<div style="text-align: center;">
 		<img src="https://static.zerochan.net/Rossi.1024.4659043.webp"
 		alt="Rossi!!!!" height="600">
 	</div>
+	<div style="text-align: center;">
+	<audio id="Philosophyz_inst" controls autoplay loop>
+  <source src="audio/bgm/Philosophyz_inst.mp3" type="audio/mpeg">
+  Meow meow meow meow.
+</audio>
+<script>
+window.onload = function() {
+    var a=document.getElementById("Philosophyz_inst");
+    a.volume=0.33;
+}
+</script>
+</div>
+
 	<div class="ve-w-100">
 		<h1>5etools</h1>
 		<h3>FAQ</h3>
